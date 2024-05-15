@@ -1,0 +1,79 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #3E065F;
+    color: #F9E8C9;
+}
+header {
+    background: #8E05C2;
+    color: #F9E8C9;
+    padding: 10px 0;
+    text-align: center;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header nav a {
+    color: #F9E8C9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: #3E065F;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F9E8C9;
+}
+.hero img{
+    width: 250px;
+    border-radius: 20px;
+}
+.hero button {
+    background: #8E05C2;
+    color: #F9E8C9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.hero button:hover {
+    background: #661894;
+    color: #F9E8C9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+.features .feature img {
+    width: 80px;
+    height: 80px;
+}
+footer {
+    background: #F9E8C9;
+    color: #3E065F;
+    text-align: center;
+    padding: 10px 0;
+}

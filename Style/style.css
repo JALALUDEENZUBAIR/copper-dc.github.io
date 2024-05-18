@@ -2,11 +2,11 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
-    background: #3E065F;
+    background: #000000;
     color: #F9E8C9;
 }
 header {
-    background: #8E05C2;
+    background: #0e9102;
     color: #F9E8C9;
     padding: 10px 0;
     text-align: center;
@@ -23,7 +23,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #3E065F;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
 }
@@ -41,7 +41,7 @@ header nav a:hover {
     border-radius: 20px;
 }
 .hero button {
-    background: #8E05C2;
+    background: #0e9102;
     color: #F9E8C9;
     border: none;
     padding: 10px 20px;
@@ -50,7 +50,7 @@ header nav a:hover {
     border-radius: 20px;
 }
 .hero button:hover {
-    background: #661894;
+    background: #094e03;
     color: #F9E8C9;
     border: none;
     padding: 10px 20px;
@@ -72,8 +72,8 @@ header nav a:hover {
     height: 80px;
 }
 footer {
-    background: #F9E8C9;
-    color: #3E065F;
+    background: #0e9102;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
 }

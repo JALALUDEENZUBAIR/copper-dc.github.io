@@ -62,15 +62,32 @@ header nav a:hover {
     padding: 50px 20px;
     text-align: center;
 }
+.section button {
+    background: #0059c0;
+    color: #F9E8C9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.section button:hover {
+    background: #004390;
+    color: #F9E8C9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
 .features .feature {
-    display: inline-block;
+    display:contents;
     width: 30%;
     margin: 10px;
 }
-.features .feature img {
-    width: 80px;
-    height: 80px;
-}
+
+
 footer {
     background: #0e9102;
     color: #ffffff;

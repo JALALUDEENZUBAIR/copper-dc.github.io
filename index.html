@@ -1,66 +1,259 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aiko Bot</title>
-    <link rel="stylesheet" href="Style/style.css">
-    <link rel="icon" href="Images/Aiko.png">
-</head>
-<body>
-    <a href="https://github.com/Aiko-Discord-Bot/Aiko" class="github-corner" aria-label="View source on GitHub">
-        <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
-            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-            <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-            <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
-        </svg></a>
-        <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
-    <header>
-        <h1>Aiko Bot</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#invite">Invite</a>
-            <a href="#support">Support</a>
-        </nav>
-    </header>
-    <section class="hero" id="home">
-        <div>
-            <img src="Images/Aiko.png" alt="Aiko Bot">
-            <h2>Welcome to Aiko Bot</h2>
-            <p>Your ultimate Discord companion</p>
-            <button>Invite Bot</button>
-        </div>
-    </section>
-    <section class="section features" id="features">
-        <h2>Features</h2>
-        <div class="feature">
-            <img src="Images/feature1-icon.png" alt="Feature 1">
-            <h3>Feature 1</h3>
-            <p>Brief description of Feature 1.</p>
-        </div>
-        <div class="feature">
-            <img src="Images/feature2-icon.png" alt="Feature 2">
-            <h3>Feature 2</h3>
-            <p>Brief description of Feature 2.</p>
-        </div>
-        <div class="feature">
-            <img src="Images/feature3-icon.png" alt="Feature 3">
-            <h3>Feature 3</h3>
-            <p>Brief description of Feature 3.</p>
-        </div>
-    </section>
-    <section class="section about" id="about">
-        <h2>About Aiko Bot</h2>
-        <p>Aiko Bot is designed to enhance your Discord experience with anime-themed features and interactions.</p>
-    
-    </section>
-    <section class="section contact" id="support">
-        <h2>Contact & Support</h2>
-        <p>Join our <a href="https://discord.gg/YgEWR9mKU9">Discord server</a> for support and community interaction.</p>
-    </section>
-    <footer>
-        <p>&copy; 2023 Aiko Bot. All rights reserved.</p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Aiko | aiko.is-a.dev" />
+		<meta property="og:description" content="Aiko | aiko.is-a.dev" />
+		<meta property="og:title" content="Aiko" />
+		<meta property="og:image" content="" />
+		<meta property="og:type" content="website" />
+		<link rel="canonical" href="aiko-discord-bot.github.io" />
+		<meta property="og:site_name" content="@aiko-discord-bot" />
+		<meta
+			name="keywords"
+			content="aiko,Aiko, aiko-discord-bot, Aiko-Discord-Bot" />
+		<meta
+			property="og:image"
+			content="https://cdn.discordapp.com/attachments/953841823338618900/1193970050365919292/tumblr_5d43d3aee5d6a0f535c75ebd4654a423_0a23ad45_1280.gif" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="language" content="English" />
+		<meta name="author" content="Aiko" />
+		<meta name="view-transition" content="same-origin" />
+		<link rel="icon" href="./public/RoundedIcon.png" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+			rel="stylesheet"
+			crossorigin />
+		<title>Aiko</title>
+	</head>
+	<body oncontextmenu="return false;">
+		<div class="container">
+			<div class="profile-border box-color">
+				<div class="profile box-color">
+					<div class="banner">
+						<img
+							loading="lazy"
+							id="banner-image"
+							src="./public/diluc.gif"
+							alt="" />
+					</div>
+					<div class="main-header">
+						<div class="image">
+							<div class="avatar">
+								<img
+									loading="lazy"
+									class="box-color"
+									id="avatar-image"
+									alt=""
+									aria-hidden="true"
+									src="./public/logo.png" />
+								<img
+									loading="lazy"
+									class="avatar-decoration"
+									src="./public/lumine_avatar_frame.webp"
+									alt="" />
+								<div class="status box-color">
+									<img
+										id="status-image"
+										src="./public/status/online.svg"
+										alt="" />
+								</div>
+							</div>
+							<!-- </button> -->
+						</div>
+						<div class="badges box-color" id="badges">
+							<div class="badges-right">
+								<a class="tooltip" aria-label="HypeSquad Brilliance">
+									<img alt=" " src="./public/badges/hypesquad-brilliance.svg"
+								/></a>
+								<a
+									class="tooltip"
+									id="active-developer"
+									aria-label="Active Developer">
+									<img alt=" " src="./public/badges/active-developer.svg"
+								/></a>
+								<a class="tooltip" aria-label="Subscriber since Dec 03, 2023">
+									<img alt=" " src="./public/badges/nitro.svg"
+								/></a>
+								<a
+									class="tooltip"
+									aria-label="Originally known as Aiko#3438">
+									<img alt=" " src="./public/badges/legacy-username.svg"
+								/></a>
+							</div>
+							<div class="badges-left"></div>
+							<!-- badges list-->
+							<!-- -->
+						</div>
+					</div>
+					<div class="card box-color">
+						<div class="name-box">
+							
+								<div class="display-name">Aiko</div>
+								<div class="username">aikodiscordbot</div>
+							
+							<span class="pronouns">Sle/eep</span>
+							<div class="custom-status">
+								<img id="custom-status-emoji" />
+								<p class="custom-status-text"></p>
+							</div>
+						</div>
+						<div class="body">
+							<div class="content">
+								<div class="about-section">
+									<div class="title-body">ABOUT ME</div>
+									<!-- text -->
+									<span class="about-me"
+										>I'm Aiko😺 from virtual.
+										Aiko is a customizable Discord bot developed to enhance your Discord server with various useful features and functionalities.
+										<a href="https://discord.com/" target="_blank"> Discord</a>
+										server called
+										<a href="https://discord.gg/mPuXu8HJaA" target="_blank"
+											>Aiko's House</a
+										>
+										and I hope you'll join and play some games & fun with me on.
+										</span
+									>
+									<!-- -->
+								</div>
+								<div class="title-body">ROLES</div>
+								<div class="roles-body">
+									<!-- roles list -->
+									<div class="rol rosepink">
+										<i class="fas fa-circle"></i>
+										<span>Professional Loser</span>
+									</div>
+									<div class="rol softpink">
+										<i class="fas fa-circle"></i>
+										<span>Discord Bot</span>
+									</div>
+									<div class="rol green">
+										<i class="fas fa-circle"></i>
+										<span>Gamer</span>
+									</div>
+									<div class="rol blue">
+										<i class="fas fa-circle"></i>
+										<span>Sleeper</span>
+									</div>
+									<!-- -->
+								</div>
+								<div class="divider social-divider"></div>
+								<div class="title-body">CONNECTIONS</div>
+
+								<div class="socials">
+									<!-- social list -->
+									<div class="column">
+										<a
+											class="platform"
+											href="http://steamcommunity.com/id/Aiko/"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/steam.svg" />
+											<div class="text-base platform-username">
+												Aiko
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="http://fb.com/Aiko/"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/facebook.svg" />
+											<div class="text-base platform-username">Aiko</div>
+											<div
+												href="http://fb.com/MiyagawaMizu/"
+												rel="noreferrer noopener"
+												target="_blank">
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+									</div>
+									<div class="column">
+										<a
+											class="platform"
+											href="https://github.com/Aiko-Discord-Bot/"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/github.svg" />
+											<div class="text-base platform-username">
+												Aiko Discord Bot
+											</div>
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://discord.gg/mPuXu8HJaA"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/discord.svg" />
+											<div class="text-base platform-username">
+												Aiko's House Server
+											</div>
+											<div class="">
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+									</div>
+									<!-- -->
+								</div>
+								<div class="chat-container">
+									<input
+										type="text"
+										id="message-input"
+										placeholder="Message @Aiko" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <script src="./scripts/script.js"></script> -->
+		<script src="./scripts/script_static.js"></script>
+		<!-- <script src="./scripts/no_dev.js"></script> -->
+		<!-- <script src="./scripts/message.js"></script> -->
+	</body>
 </html>

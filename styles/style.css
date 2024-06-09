@@ -64,11 +64,18 @@ body {
   margin: 0;
 }
 
-.box-color {
+/* .box-color {
   background: linear-gradient(to bottom,
       hsl(var(--primary-h-top), var(--primary-s-top), var(--primary-l-top)),
       hsl(var(--primary-h-bottom), var(--primary-s-bottom), var(--primary-l-bottom)));
+} */
+.box-color {
+  background: linear-gradient(to bottom, rgb(108, 0, 0), rgb(255, 81, 0));
 }
+
+
+
+
 
 .container {
   position: relative;

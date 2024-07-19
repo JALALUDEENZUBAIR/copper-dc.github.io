@@ -1,0 +1,10 @@
+body{
+
+}
+
+.nav{
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}

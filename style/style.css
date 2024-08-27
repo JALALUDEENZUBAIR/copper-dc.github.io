@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
+    font-size: larger;
     font-family: 'Roboto Condensed', sans-serif;
     height: 100vh; 
-    background: linear-gradient(to bottom, #0048ff, #ffffff);
     text-align: center;
     backdrop-filter: blur(10px);
-    color: white;
+    color: rgb(33, 33, 33);
+}
+body a{
+    text-decoration: none;
+    color: rgb(234, 125, 0);
 }
 
 .nav{

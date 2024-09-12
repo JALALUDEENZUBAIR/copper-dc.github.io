@@ -64,7 +64,7 @@ body a{
     cursor: pointer;
 }
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 700px) {
     .header-container{
         flex-direction: column;
         display: flex;

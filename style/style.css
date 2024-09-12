@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-/* body{
+body{
     font-size: larger;
     font-family: "Pixelify Sans", sans-serif;
     height: 100vh; 
@@ -12,14 +12,12 @@ body a{
     text-decoration: none;
     color: rgb(234, 125, 0);
 }
-
 .nav{
     text-decoration: none;
     display: flex;
     padding: 10px;
     list-style: none;
-} */
-
+}
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -30,13 +28,11 @@ body a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Pixelify Sans", sans-serif;
+    justify-content: space-between;
 }
-.header-container span{
-    height: 10vh;
+.logo{
     width: 20%;
     text-align: center;
-    padding-top: 10px;
     font-size:xx-large;
 }
 .navigation{
@@ -59,34 +55,42 @@ body a{
 }
 .toggle{
     position: fixed;
-    right: 5px;
-    top: 5px;
+    right: 20px;
+    top:20px;
+    z-index: -99px;
     display: none;
-    padding-top: 0px;
+}
+.toggle:hover{
+    cursor: pointer;
 }
 
-
-@media  screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+@media  screen and (max-width: 700px) {
     .header-container{
         flex-direction: column;
-        /* height: 50vh; */
+        display: flex;
+        height: 10vh;
     }
     .navigation{
+        width: 100vw;
         flex-direction: column;
-        height: 80%;
-        display: none;  
+        height: 50vh;
+        display: none;
+        position: absolute; 
+        top: -100vh; 
+        background-color:white;
     }
     .navigation.show{
         display: flex;
+        top:10vh;
+        transition: top 10s ease;
     }
     .logo{
         height: 10vh;
         display: flex;
         flex-direction: row;
+        align-items: center;
         width: 100%;
+        padding-left: 15px;
     }
     .toggle{
         display: block;

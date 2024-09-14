@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/copper-dc.github.io/static/css/main.a05ea708.css",
+    "main.js": "/copper-dc.github.io/static/js/main.2c7a897d.js",
+    "static/media/copper.png": "/copper-dc.github.io/static/media/copper.2d08526d3b22a03f6b87.png",
+    "index.html": "/copper-dc.github.io/index.html",
+    "main.a05ea708.css.map": "/copper-dc.github.io/static/css/main.a05ea708.css.map",
+    "main.2c7a897d.js.map": "/copper-dc.github.io/static/js/main.2c7a897d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a05ea708.css",
+    "static/js/main.2c7a897d.js"
+  ]
+}

@@ -1,0 +1,16 @@
+.Nav-Container{
+    list-style: none;
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    color: red;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.Nav-Container li:hover{
+    cursor: pointer;
+}

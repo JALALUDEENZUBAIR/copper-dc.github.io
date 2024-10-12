@@ -3,7 +3,7 @@ body{
     margin: 0px;
     padding: 0px;
     background: linear-gradient(180deg, #1E1E2F, #2E8B8D);
-    background-repeat: no-repeat;
+    background-repeat:inherit;
     background-position:center;
     background-size: cover;
     background-attachment: fixed;
@@ -19,11 +19,15 @@ body{
     align-items: center;
 }
 .container {
-    margin-top: 15vh;
+    height: 80vh;
     width: 100vw;
+    overflow-y: scroll;
     padding: 20px 0px;
     display: flex;
 }
+.container::-webkit-scrollbar {
+    display: none;
+  }
 .image {
     display: flex;
     justify-content: center;
@@ -66,7 +70,7 @@ body{
     scale: 1.01;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .container {
         flex-direction: column;
         gap: 50px;

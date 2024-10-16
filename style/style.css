@@ -8,7 +8,13 @@ body {
     justify-content: center;
     margin: 0;
     font-family: 'Switzer', sans-serif;
+    background: url("../assets/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 h1 {
     font-size: 60px;
     padding: 20px;
@@ -17,33 +23,66 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-
-
 img {
     width: 200px;
-    margin-bottom: 20px;
-    border-radius: 15px;
+    
 }
-
 
 .get-started-btn {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px 20px;
-    font-size:large;
+    font-size: large;
     font-weight: bolder;
-    color: white;
-    background-color: #2600ff;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .get-started-btn:hover {
-    background-color: #1e00c6;
-    transform: scale(1.1);
+    background-color: #eeeeee;
     transition: transform 0.3s ease;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+h1 {
+    font-size: 40px;
+}
 
+img {
+    width: 150px;
+}
+
+.get-started-btn {
+    padding: 8px 16px;
+    font-size: medium;
+}
+}
+
+@media (max-width: 480px) {
+h1 {
+    font-size: 30px;
+}
+
+img {
+    width: 100px;
+}
+
+.get-started-btn {
+    padding: 6px 12px;
+    font-size: small;
+}
+}

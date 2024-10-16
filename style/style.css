@@ -6,12 +6,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     margin: 0;
     font-family: 'Switzer', sans-serif;
 }
 h1 {
     font-size: 60px;
+    padding: 20px;
     background: linear-gradient(to bottom, white, rgb(210, 210, 210));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -28,6 +28,7 @@ img {
 
 .get-started-btn {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     font-size:large;
     font-weight: bolder;
